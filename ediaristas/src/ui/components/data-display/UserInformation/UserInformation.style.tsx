@@ -12,7 +12,7 @@ export const UserInformationContainer = styled("div")`
   background-color: ${({ theme }) => theme.palette.grey[50]};
   padding: ${({ theme }) => theme.spacing(3)};
   align-items: center;
-  gap: ${({ theme }) => theme.spacing(0.5) + "" + theme.spacing(8)};
+  gap: ${({ theme }) => theme.spacing(0.5) + " " + theme.spacing(2)};
 `;
 
 export const UserName = styled("div")`
@@ -23,7 +23,7 @@ grid-area: name;
 `;
 
 export const UserDescription = styled("div")`
-    grid-area: description;
+  grid-area: description;
   color: ${({ theme }) => theme.palette.text.secondary};
   font-size: ${({ theme }) => theme.typography.body2.fontSize};
 `;
